@@ -1,0 +1,3 @@
+Durante el desarrollo de este proyecto utilicé herramientas de inteligencia artificial con fines de consulta: aclaración de dudas sobre el framework, interpretación de mensajes de error y revisión de código.
+
+En particular, al ejecutar una copia nueva del proyecto de la materia, la aplicación compilaba e instalaba correctamente pero se cerraba de inmediato al abrirse, sin mostrar ningún error en la terminal. Para localizar la causa recurrí a comandos de diagnóstico del entorno y de Android, con los que obtuve el registro de la excepción. Este indicó que el fallo no estaba en el código de la aplicación, sino en la configuración de compilación del módulo nativo. Una vez identificado, corregí el archivo correspondiente y el proyecto se ejecuto con normalidad.
